@@ -19,34 +19,11 @@
         <a href="#adventures">Adventures</a>
         <a href="#packages">Packages</a>
         <a href="#contact">Contact</a>
-        <a href="#tour">Tour</a>
+        <a href="#packages">Tour</a>
       </nav>
-      <div class="menubarContainer">
-        <div class="togglebutton">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="submenu">
-            <ul>
-            <a href="#home">
-                <li>Home</li>
-            </a><a href="#news">
-                <li>News</li>
-            </a><a href="#adventure">
-                <li>Adventure</li>
-            </a><a href="package">
-                <li>Package</li>
-            </a><a href="#tour">
-                <li>Tour</li>
-            </a><a href="#contact">
-                <li>Contact</li>
-            </a>
-        </div>
-      </div>
+      <div class="humberger-icon"><img src="/assets/images/humberger.svg" alt=""></div>
     </header>
-   <!-- <section class="sidebar">
-     <div class="humberger-icon" onclick="sidebarToggle();"><img src="/assets/images/humberger.svg" alt=""></div>
+<section class="sidebar">
         <div class="sidebar-wrapper">
             <a href="" class="sidebar-title">
                 <span><img src="/assets/images/flag.jpg" alt="Ethiopia Flag"></span>
@@ -56,9 +33,9 @@
                     <li>Home</li>
                 </a><a href="#news">
                     <li>News</li>
-                </a><a href="#adventure">
+                </a><a href="#adventures">
                     <li>Adventure</li>
-                </a><a href="package">
+                </a><a href="#packages">
                     <li>Package</li>
                 </a><a href="#tour">
                     <li>Tour</li>
@@ -66,8 +43,9 @@
                     <li>Contact</li>
                 </a>
         </div>
-    </section> -->
+    </section>
 
+    <!--
     <section
       class="sidebar"
       id="site-sidebar"
@@ -131,9 +109,10 @@
           ><span class="material-symbols-rounded">settings</span>Settings</a
         >
       </nav>
-    </section>
+    </section> -->
 
-    <section class="landingContainer">
+    <main class="main">
+    <section class="landingContainer" id="home">
         <div class="neverstopstopContainer">
             <h1>Never Stop<h1>
         </div>
@@ -152,7 +131,7 @@
     
     </section>
 
-    <div class="adventureTitle">
+    <div class="adventureTitle" id="adventures">
     <h1>Adventures Tour</h1>
     </div>
 
@@ -278,7 +257,7 @@
         </div>
     </section>
 
-    <div class="adventureTitle">
+    <div class="adventureTitle" id="packages">
     <h1>Popular Packages</h1>
     </div>
 
@@ -379,7 +358,7 @@
        <h1>contact us</h1>
     </div>
 
-    <section class="contactUsSection">
+    <section class="contactUsSection" id="contact">
         <div class="contactInputs">
             <input type="text" placeholder="Your Name">
             <input type="email" placeholder="Email Address..">
@@ -392,6 +371,7 @@
         <input class="sendMessage" type="submit" value="Send Message">
     </section>
 
+    </main>
     <footer class="footerWrapper">
         <div class="footerContainer">
             <div class="footerActions">
