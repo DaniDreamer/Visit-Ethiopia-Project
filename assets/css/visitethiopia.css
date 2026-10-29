@@ -135,7 +135,7 @@ header {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.01)
     ),
-    url("assets/images/backround.jpg") center center / cover no-repeat;
+    url("/assets/images/backround.jpg") center center / cover no-repeat;
 }
 
 .neverstopstopContainer {
